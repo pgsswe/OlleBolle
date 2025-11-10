@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olles AB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Olles AB</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#start">Start</a></li>
+                    <li><a href="#tjanster">Tjänster</a></li>
+                    <li><a href="#om-oss">Om oss</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="start">
+        <div class="hero-content">
+            <h2>Välkommen till Olles AB</h2>
+            <p>Vi levererar kvalitet och service med ett leende.</p>
+            <a href="#kontakt" class="btn">Kontakta oss</a>
+        </div>
+    </section>
+
+    <section class="services" id="tjanster">
+        <div class="container">
+            <h2>Våra tjänster</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <img src="bilder/service1.jpg" alt="Tjänst 1">
+                    <h3>Bygg & Renovering</h3>
+                    <p>Professionellt utförda arbeten med fokus på kvalitet och kundnöjdhet.</p>
+                </div>
+                <div class="service-card">
+                    <img src="bilder/service2.jpg" alt="Tjänst 2">
+                    <h3>Fastighetsservice</h3>
+                    <p>Vi tar hand om fastigheten – allt från underhåll till reparationer.</p>
+                </div>
+                <div class="service-card">
+                    <img src="bilder/service3.jpg" alt="Tjänst 3">
+                    <h3>Trädgård & Utemiljö</h3>
+                    <p>Vi gör din utemiljö trivsam och vacker året om.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="om-oss">
+        <div class="container">
+            <h2>Om oss</h2>
+            <p>Olles AB är ett familjeföretag med lång erfarenhet inom bygg och service. 
+               Vi tror på hållbarhet, noggrannhet och god kundkontakt i varje projekt vi tar oss an.</p>
+        </div>
+    </section>
+
+    <section class="contact" id="kontakt">
+        <div class="container">
+            <h2>Kontakta oss</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Namn" required>
+                <input type="email" id="email" placeholder="E-post" required>
+                <textarea id="message" placeholder="Meddelande" required></textarea>
+                <button type="submit" class="btn">Skicka</button>
+            </form>
+            <p id="formMessage"></p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Olles AB. Alla rättigheter förbehållna.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
